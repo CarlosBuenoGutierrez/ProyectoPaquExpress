@@ -90,7 +90,7 @@ public abstract class Repartidor extends Persona implements InterfaceRepartidor{
     
     @Override
     public String toString() {
-        return super.getNombre() + " (" + getTipoVehiculo() + ") - Cédula: " + super.getCedula()+
+        return super.getNombre() + " (" + getTipoVehiculo() + ") - Cedula: " + super.getCedula()+
                "\n  Capacidad: " + capacidadKg + " kg" +
                "\n  Peso actual: " + String.format("%.2f", calcularPesoActual()) + " kg" +
                "\n  Envios asignados: " + cantidadEnviosAsignados() +
